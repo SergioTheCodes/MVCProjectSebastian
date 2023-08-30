@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    // public bool InsertPost()
+    // {
+        
+    // }
+
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h1>Insertar Post</h1>
+
+<form action="post">
+    <label>Titulo</label>
+    <input type="text" id="titulo" ></input>
+    <label>Descripcion</label>
+    <input type="text" id="descripcion"></input>
+    <label>Fecha</label>
+    <input type="datetime" id="datetime"></input>
+    <label>Autor</label>
+    <input type="text" id="autor"></input>
+    <label>Archivos</label>
+    <input type="file" id="file"></input>
+    <button type="submit" onclick="InsertPost()">Crear Post</button>
+</form>
